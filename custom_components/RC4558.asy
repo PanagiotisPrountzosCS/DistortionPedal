@@ -3,19 +3,18 @@ SymbolType BLOCK
 LINE Normal -32 32 -32 -32
 LINE Normal 32 0 -32 32
 LINE Normal -32 -32 32 0
-LINE Normal 0 -16 0 -32
-LINE Normal 0 32 0 16
 LINE Normal -48 -16 -32 -16
-LINE Normal -48 16 -32 16
-TEXT 8 -24 Center 0 +
-TEXT 8 24 Center 0 -
+LINE Normal -32 16 -48 16
+LINE Normal 0 -32 0 -16
+LINE Normal 0 16 0 32
 TEXT -24 -16 Center 1 +
 TEXT -24 16 Center 1 -
+TEXT 8 -24 Center 0 +
+TEXT 8 24 Center 0 -
 WINDOW 0 0 -80 Bottom 2
 WINDOW 3 0 0 Center 0
+SYMATTR Value RC4558
 SYMATTR Prefix X
-SYMATTR Value NE5532
-SYMATTR ModelFile NE5532.lib
 PIN -48 -16 NONE 8
 PINATTR PinName 1
 PINATTR SpiceOrder 1

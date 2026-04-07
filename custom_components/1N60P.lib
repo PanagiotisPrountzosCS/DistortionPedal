@@ -1,0 +1,1 @@
+.model 1N60P D(Is=0.7u Rs=5 N=1.05 Cjo=2p Vj=0.6 M=0.33 fc=0.5 Bv=45 Ibv=10u tt=5n)
