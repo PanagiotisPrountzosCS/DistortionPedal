@@ -9,3 +9,4 @@ pcb/fp-info-cache
 pcb/pcb-backups/*
 pcb/pcb.kicad_prl
 pcb/~*
+**/*.dcm

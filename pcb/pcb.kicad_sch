@@ -3447,6 +3447,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08b4856e-79a3-454f-8513-a2849732ef53")
+		(property "Reference" "#PWR013"
+			(at 106.68 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef68aafc-1854-404d-a743-e150d1774dae")
+		)
+		(instances
+			(project ""
+				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 82.55 107.95 0)
 		(unit 1)
@@ -4055,7 +4121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NMJ4HCD2"
+		(property "Footprint" "NMJ4HCD2:NMJ4HCD2"
 			(at 24.13 211.76 0)
 			(effects
 				(font
@@ -4515,6 +4581,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 111.76 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b6ae7b2-b5c0-4b92-88f2-906bb0fe9da6")
+		(property "Reference" "#PWR014"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df44058a-f82c-4107-9ddb-217be04222a0")
+		)
+		(instances
+			(project "pcb"
+				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 209.55 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4597,7 +4729,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "FSWITCH"
 			(at 127 182.88 0)
 			(effects
 				(font
@@ -4605,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3PDT:SW_3PDT_GENERIC"
+		(property "Footprint" "3PDT:3PDT"
 			(at 127 177.8 0)
 			(effects
 				(font
@@ -4869,6 +5001,72 @@
 			(project ""
 				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94ade60c-0aa5-4b1e-ace8-c4656ad07d37")
+		(property "Reference" "#PWR015"
+			(at 127 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f924622f-5119-41c3-812f-310ac2e84a5a")
+		)
+		(instances
+			(project "pcb"
+				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5275,7 +5473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NMJ4HCD2"
+		(property "Footprint" "NMJ4HCD2:NMJ4HCD2"
 			(at 24.13 163.5 0)
 			(effects
 				(font
