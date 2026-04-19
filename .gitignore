@@ -1,4 +1,11 @@
+# ltspice
 Distortion.raw
 Distortion.op.raw
 Distortion.log
 Distortion.net
+
+#kicad
+pcb/fp-info-cache
+pcb/pcb-backups/*
+pcb/pcb.kicad_prl
+pcb/~*
