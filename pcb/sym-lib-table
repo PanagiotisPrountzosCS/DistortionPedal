@@ -1,5 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "NMJ4HCD2")(type "KiCad")(uri "${KIPRJMOD}/../custom_components/KiCad/dp_nmj4hcd2/NMJ4HCD2.kicad_sym")(options "")(descr "Neutrik NMJ4HCD2 Mono Jack"))
-  (lib (name "3PDT")(type "KiCad")(uri "${KIPRJMOD}/../custom_components/KiCad/dp_3pdt/3PDT.kicad_sym")(options "")(descr ""))
+  (lib (name "3PDT")(type "KiCad")(uri "${KIPRJMOD}/../custom_components/KiCad/dp_3pdt/3PDT.kicad_sym")(options "")(descr "3pdt footswitch"))
+  (lib (name "PowerJackFemale")(type "KiCad")(uri "${KIPRJMOD}/../custom_components/KiCad/dp_pjf/694106301002.kicad_sym")(options "")(descr "PowerJackFemale"))
 )
