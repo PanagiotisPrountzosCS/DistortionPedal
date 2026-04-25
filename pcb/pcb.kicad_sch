@@ -2169,16 +2169,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: power supply barrel jack"
-		(exclude_from_sim yes)
-		(at 88.9 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c0a2a7b8-8fb5-4c7b-b46d-3378086e3c79")
-	)
 	(junction
 		(at 177.8 127)
 		(diameter 0)
@@ -4234,6 +4224,139 @@
 			(project ""
 				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b68ff80-e5b2-440c-ab86-5fcbdabd9d0c")
+		(property "Reference" "#PWR016"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cd5769b-a72a-4cf8-8eab-48f369fb827a")
+		)
+		(instances
+			(project "pcb"
+				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c740b4c-9ac6-4e0c-8c7c-f8ffe396d27d")
+		(property "Reference" "#PWR08"
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9c40a83-4637-4aa5-92f2-3dda5af6c70c")
+		)
+		(instances
+			(project ""
+				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6712,7 +6835,6 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 78.74 80.01 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7422,6 +7544,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 254 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7429,7 +7552,7 @@
 		(dnp no)
 		(uuid "e3f3602b-cbca-4eeb-a97d-d3d6e52dbe90")
 		(property "Reference" "RV3"
-			(at 261.62 139.7 0)
+			(at 261.62 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7560,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 261.62 142.24 0)
+			(at 261.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
