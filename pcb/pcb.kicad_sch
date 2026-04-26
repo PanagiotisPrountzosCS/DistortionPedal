@@ -4902,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NMJ4HCD2:NMJ4HCD2"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 24.13 211.76 0)
 			(effects
 				(font
@@ -6387,7 +6387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PowerJackFemale:694106301002"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 46.99 122.86 0)
 			(effects
 				(font
@@ -6599,7 +6599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NMJ4HCD2:NMJ4HCD2"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 24.13 163.5 0)
 			(effects
 				(font
@@ -6724,7 +6724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 78.74 80.01 0)
 			(effects
 				(font
@@ -7131,6 +7131,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d11a166f-ff9b-49f7-8bdd-1bf83bc312ca")
+		(property "Reference" "#PWR08"
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abe1ac45-bfe2-4361-9f4a-5cff1c7d7458")
+		)
+		(instances
+			(project "pcb"
+				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 107.95 76.2 90)
 		(unit 1)
@@ -7293,7 +7359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 222.25 85.09 0)
 			(effects
 				(font
@@ -7434,7 +7500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 254 146.05 0)
 			(effects
 				(font
@@ -7542,6 +7608,73 @@
 			(project ""
 				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec3e35ad-6473-4a82-aedb-b32de4d939d0")
+		(property "Reference" "#PWR016"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06647542-bf72-4efe-87a5-1f705df80ba6")
+		)
+		(instances
+			(project "pcb"
+				(path "/0709eb16-b1b4-4efb-9d5a-efabba183f02"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
